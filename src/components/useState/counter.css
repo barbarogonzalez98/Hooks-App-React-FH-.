@@ -1,0 +1,11 @@
+body {
+    padding: 70px;
+}
+
+.btn.btn-primary {
+    background-color: rgb(228, 135, 28);
+    margin-top: 10px;
+    padding: 30px;
+    text-align: center;
+    width: 100px;
+}
