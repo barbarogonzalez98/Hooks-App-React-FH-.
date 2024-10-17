@@ -3,10 +3,12 @@ import { createRoot } from 'react-dom/client';
 //import HooksApp from './HooksApp';
 // import CounterApp from './components/useState/CounterApp';
 // import CounterWithCustomHook from './components/useState/CounterWithCustomHook';
-import { SimpleForm } from './components/useEffect/SimpleForm';
+// import { SimpleForm } from './components/useEffect/SimpleForm';
+// import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
+import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
-    <SimpleForm/>,
+    <MultipleCustomHooks/>,
 );
 
