@@ -5,10 +5,11 @@ import { createRoot } from 'react-dom/client';
 // import CounterWithCustomHook from './components/useState/CounterWithCustomHook';
 // import { SimpleForm } from './components/useEffect/SimpleForm';
 // import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
-import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+// import { MultipleCustomHooks } from './components/03-examples/MultipleCustomHooks';
+import { FocusScreen } from './components/04-useRef/FocusScreen';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
-    <MultipleCustomHooks/>,
+    <FocusScreen/>,
 );
 

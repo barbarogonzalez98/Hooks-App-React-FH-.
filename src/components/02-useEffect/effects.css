@@ -2,3 +2,10 @@ body {
     padding: 70px;
     background-color: aquamarine;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    padding: 0px;
+}
