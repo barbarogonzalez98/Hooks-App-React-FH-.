@@ -9,7 +9,6 @@ export const MultipleCustomHooks = () => {
     `https://rickandmortyapi.com/api/character/${counter}`
   );
   const { name, status, gender, image } = !!data && data;
-  console.log(data);
 
   return (
     <div>
