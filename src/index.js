@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { MemoHook } from './components/06-memos/MemoHook';
+import { Padre } from './components/07-tarea-memo/07-tarea-memo/Padre';
 
 //import HooksApp from './HooksApp';
 // import CounterApp from './components/useState/CounterApp';
@@ -12,9 +12,11 @@ import { MemoHook } from './components/06-memos/MemoHook';
 // import { RealExamplesRef } from './components/04-useRef/RealExamplesRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
 // import { Memorize } from './components/06-memos/Memorize';
+// import { MemoHook } from './components/06-memos/MemoHook';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
-    <MemoHook/>,
+    <Padre/>,
 );
 
